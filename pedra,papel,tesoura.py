@@ -1,2 +1,9 @@
 import random 
-usuario = input("Digite 1 para pedra, 2 para papel, 3 para tesoura")
+usuario = input("digte 3 pedra, 2 papel e 1 tesoura ")
+
+if usuario == 3:
+    print("usuario empatou")
+elif usuario == 2:
+    print("usuario venceu")
+else:
+    print("você venceu")    
